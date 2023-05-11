@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../utils/theme.css">
+    <link rel="stylesheet" href="register.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Inscription</h1>
+
+            <div class="inputBox">
+                <input type="text" name="firstname" id="firstname" required>
+                <label for="firstname">Prénom</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="lastname" id="lastname" required>
+                <label for="lastname">Nom</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="date" name="birthdate" id="birthdate" required>
+                <label for="birthdate">Date de naissance</label>
+            </div>
+
+            <div>
+                <select name="chief" id="chief">
+                    <option value="1">oui</option>
+                    <option value="0">non</option>
+                </select>
+                <label for="myList">Etes-vous un commandant de bord?</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="street_number" id="street_number" required>
+                <label for="street_number">Numéro de la rue</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="street_name" id="street_name" required>
+                <label for="street_name">Nom de la rue</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="zip_code" id="zip_code" required>
+                <label for="zip_code">Code postal</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" name="city" id="city" required>
+                <label for="city">Ville</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" name="password" id="password" required>
+                <label for="password">Mot de passe</label>
+            </div>
+
+            <div class="box">
+            <input type="file" name="profile_picture" id="profile_picture" required
+            class="form-control form-control-sm rounded-0" >
+            <label for="profile_picture">photo d'utilisateur</label>
+              </div>
+
+            <input type="submit" value="S'inscrire">
+        </form>
+
+        <p><a href="../login/login.html">Se connecter</a></p>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
