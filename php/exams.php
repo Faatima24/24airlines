@@ -12,7 +12,7 @@
 
 		require_once('utils/db_connect.php');
 		require('utils/functions.php');
-        include('header.php');
+        include('utils/header.php');
 
         if(isChief()) {
 			// if user is an admin the add exam form appers

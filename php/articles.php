@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once 'db_connect.php';
+require_once ('utils/db_connect.php');
 
 // Check if the user is logged in
 if (!isset($_SESSION['user_id'])) {
@@ -61,6 +61,7 @@ $articles = $req->fetchAll();
             </div>
             <button type="submit" name="button" class="btn btn-primary">Ajouter </button>
         </form>
+    <?php endif; ?>
 
     <h2>View Articles</h2>
     <?php foreach ($articles as $article) : ?>

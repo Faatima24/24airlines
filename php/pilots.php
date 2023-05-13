@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>List of Users</title>
+	<title>Liste des pilotes</title>
 </head>
 <body>
 	<?php

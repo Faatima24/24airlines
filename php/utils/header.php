@@ -1,3 +1,4 @@
+
 <header>
   <nav>
     <ul>
@@ -8,7 +9,7 @@
         <a href="#" class="logo">Votre planner simple!</a>
       </li>
       <li>
-        <span class="login-user">Bienvenue <?= $_SESSION['firstname'] ?>!</span>
+        <span class="login-user">Bienvenue <php?= $_SESSION['firstname'] ?>!</span>
       </li>
     </ul>
   </nav>
